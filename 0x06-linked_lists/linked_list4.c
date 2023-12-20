@@ -40,7 +40,7 @@ int main(void)
 
     print_node_data(head);
 
-    freee(head);
+    free(head);
     free(current);
 
     return (0);
