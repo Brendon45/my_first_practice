@@ -11,8 +11,12 @@ Welcome to My_First_Practice repository! This repository contains a collection o
 
 Here's a brief overview of some of the exercises and projects included in this repository:
 
-1. **Exercise Name 1**: Brief description of the exercise.
-2. **Exercise Name 2**: Brief description of the exercise.
-3. ...
+1. **0x01-functions**: Here l worked on fuctions in C language and solved coding challenges.
+2. **0x02-Pointers**: Here l worked on pointers in C language.
+3. **0x04-patterns**: l worked on patterns in C.
+4. **0x05-Interview_Questions**: l worked on interview questions mostly asked in Tech industry using C language
+5. **0x09-Variadic_functions**: Here l worked on variadic functions and tackled coding challenges
 
 Feel free to explore the directories to learn more about each exercise!
+
+![HHSHS](https://happycoding.io/tutorials/html/images/rainbow-logo-2.png)
