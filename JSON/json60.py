@@ -16,3 +16,4 @@ if __name__=="__main__":
         new_list = []
 
     new_list.extend(sys.argv[1:])
+    save_to_json_file(new_list, "argv.json")
