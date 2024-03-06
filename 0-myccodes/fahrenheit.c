@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - A program that converts Celcius to Fahrenheit degrees
+ * main - A program that converts celcius to Fahrenheit.
  *
  * Return: On success(0).
 */
