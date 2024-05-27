@@ -1,6 +1,6 @@
 ## This is my first repository for practicing C programs
 
-# My First Practice
+# My First Practice 💻🎬✍️
 
 Welcome to My First Practice repository! This repository contains a collection of C programming exercises, projects, and practice code that I've worked on.
 
@@ -20,5 +20,8 @@ Here's a brief overview of some of the exercises and projects included in this r
 5. **0x09-Variadic_functions**: Here l worked on variadic functions and tackled coding challenges
 
 Feel free to explore the directories to learn more about each exercise!
+
+## AUTHORS
+- Brendon Jeje <jejebrendon722@gmail.com>
 
 ![HHSHS](https://happycoding.io/tutorials/html/images/rainbow-logo-2.png)
