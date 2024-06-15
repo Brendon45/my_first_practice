@@ -5,4 +5,4 @@ function greet(name, lastName) {
   }
   
   greet('Brendon', 'Jeje'); // Calling the function
-  greet('Given');
+  greet('Given', 'Siamaga');
