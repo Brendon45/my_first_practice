@@ -8,23 +8,23 @@ for (let i = 0; i < 5; i++) {
 }
 */
 
-// Define a variable to represent the current day
+/*Define a variable to represent the current day*/
 const day = "tuesday";
 
-// Use a switch statement to handle different values of the day variable
+/*Use a switch statement to handle different values of the day variable*/
 switch (day) {
     case "monday":
-        console.log("today is monday! "); // Log message if day is "monday"
-        break; // Exit the switch statement
+        console.log("today is monday! "); /*Log message if day is "monday"*/
+        break; /*Exit the switch statement*/
 
     case "tuesday":
-        console.log("it's tuesday! "); // Log message if day is "tuesday"
+        console.log("it's tuesday! "); /*Log message if day is "tuesday"*/
         break;
 
     case "wednesday":
-        console.log("it's wednesday! "); // Log message if day is "wednesday"
+        console.log("it's wednesday! "); /*Log message if day is "wednesday"*/
         break;
     
     default:
-        console.log("it's another day."); // Log message for any other day
+        console.log("it's another day."); /*Log message for any other day*/
 }
