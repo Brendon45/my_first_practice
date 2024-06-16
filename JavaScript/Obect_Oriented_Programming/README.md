@@ -72,3 +72,50 @@ Think of HTML elements like TextBoxes, Drop-down lists, CheckBoxes and so on....
 poly means many & morph means form, so polymorphism means many forms. In Object-oriented Programming polymorphismis a technique that allows you to get rid of long if and else or switch and case statements, so back to our HTML elements example:
 ![OBJECT](https://private-user-images.githubusercontent.com/125453474/326386457-dfff2d30-7118-48b8-8bf0-20f59b6269ad.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg1NzE2MzQsIm5iZiI6MTcxODU3MTMzNCwicGF0aCI6Ii8xMjU0NTM0NzQvMzI2Mzg2NDU3LWRmZmYyZDMwLTcxMTgtNDhiOC04YmYwLTIwZjU5YjYyNjlhZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxNlQyMDU1MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02OWEwMTI5Y2NhZDZhYTc0NjExYzMyMWJlMWE2NjhkMTQxYjFhN2QwMjY2YzM3ZDA5ZjgwYmUxZDIyOTE3MGI1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.sPUctj4skBdGhSLgc07b5UJRtHh8__sgqLVtdhM5qt4)
 
+All those objects should have the ability to be rendered on a page, but the way each element is rendered is different from others. If we want to render multiple HTML elements in a procedural way our code would probably look like this:
+
+
+switch (...) {
+  case `select`: renderSelect();
+  case `text`: renderTextBox();
+  case `checkbox`: rederCheckBox();
+  case ...
+  case ...
+  case ...
+}
+
+But with object-orintation we can implement a render method in each of those objects:
+![OBJECT](https://private-user-images.githubusercontent.com/125453474/326390298-1fb4befe-5126-42bd-901c-2181c6b69e3d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg1NzE2MzQsIm5iZiI6MTcxODU3MTMzNCwicGF0aCI6Ii8xMjU0NTM0NzQvMzI2MzkwMjk4LTFmYjRiZWZlLTUxMjYtNDJiZC05MDFjLTIxODFjNmI2OWUzZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxNlQyMDU1MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNzNjYjUzYWI2NzllZGNhZmE3NzU0YmZiZWJiMjFhOTUzYjFjNTVmZjJmZmNlZmUwOWFlYWYyMTI3NjNhZjFjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.cT0---lq5oTpkACVdspu8RD4OXEv_pJe20uNlubRAZ0)
+
+And the render method will behave differently depending on the type of the object we are referencing, so we can get rid of that nasty switch and case and use one line of code like this:
+
+element.render();
+
+## BENEFITS OF OOP
+
+## 1. Encapsulation
+
+Using encapsulation we group related variables and functions together and this way we can reduce complexity. Now we can reuse these objects in different parts of a program or in different programs.
+
+## 2. Abstraction
+
+With abstraction we hide details and the complexity and show only the essentials.
+
+## 3. Inheritance
+
+With inheritance we can eliminate redundant code
+
+# 4. Polymorphism
+With polymorphism we can refactor ugly switch case statements
+![OBJECT](https://private-user-images.githubusercontent.com/125453474/326394637-bcc72d8f-17b6-42a1-b6f2-e0bcbe42f2af.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg1NzE2MzQsIm5iZiI6MTcxODU3MTMzNCwicGF0aCI6Ii8xMjU0NTM0NzQvMzI2Mzk0NjM3LWJjYzcyZDhmLTE3YjYtNDJhMS1iNmYyLWUwYmNiZTQyZjJhZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxNlQyMDU1MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hYTk4Yzg1MTczOWNhZTdiMzY0NDM4ZDQ1MWMzYzQ2YTk0NWM3N2NlMWJkNzI5NDEwNTcyOTRlZmY0ZDRiYWNhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.tZ7Qr8oP-zgHeLZmqPiclWMcbpXgdwMP0o8jHzgZXYA)
+
+## value vs Reference Types
+
+In JavaScript we have two categories of types, on one side we have value types also called primitives and the other side we have reference types.
+![OBJECT](https://private-user-images.githubusercontent.com/125453474/326732732-b903f40e-40f3-424d-bf3a-c2edbfadd993.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg1NzE2MzQsIm5iZiI6MTcxODU3MTMzNCwicGF0aCI6Ii8xMjU0NTM0NzQvMzI2NzMyNzMyLWI5MDNmNDBlLTQwZjMtNDI0ZC1iZjNhLWMyZWRiZmFkZDk5My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxNlQyMDU1MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZTNhZWVmZTIwNjhkZjJlN2U2YjI3ZjEwYThkZWJhNDc3MTM1ZDFiYzk5MzkwYTQ4YzFmMDlmZGIzM2M3MGQ0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZLEJU-3nEihpDA8hXN_avcErBpA1DHND-6Dt5MraOv0)
+
+## Principles of OOP
+
+DRY (Don't Repeat Yourself): Encourages reducing redundancy in code by promoting reuse through inheritance and composition.
+
+SOLID Principles: A set of five principles (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) that guide software design to make software more maintainable, flexible, and scalable.
