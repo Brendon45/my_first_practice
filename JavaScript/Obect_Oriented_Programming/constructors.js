@@ -11,7 +11,7 @@
  * - Factory Functions: do not use 'this' to set properties
  */
 
-// Factory Function
+/*Factory Function*/
 function createCircle(radius) { // camelCase
     return { // object literal notation
         radius, // property
@@ -21,12 +21,12 @@ function createCircle(radius) { // camelCase
     };
 }
 
-// Create an object using the factory function
+/*Create an object using the factory function*/
 const circle = createCircle(1);
 console.log(circle); // { radius: 1, draw: [Function: draw] }
 circle.draw(); // Output: draw
 
-// Constructor Function
+/*Constructor Function*/
 function Circle(radius) { // PascalCase
     // 'this' refers to the new object being created
     this.radius = radius; // Set the property on the new object
@@ -35,7 +35,7 @@ function Circle(radius) { // PascalCase
     };
 }
 
-// Create an object using the constructor function
+/*Create an object using the constructor function*/
 const another = new Circle(1); // 'new' keyword creates a new empty object and sets 'this' to point to that object
 console.log(another); // Circle { radius: 1, draw: [Function] }
 another.draw(); // Output: draw
