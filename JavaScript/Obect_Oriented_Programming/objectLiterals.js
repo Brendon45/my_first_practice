@@ -6,14 +6,14 @@
     * Example: Circle           - Properties: radius, location, etc. Methods: draw, etc.
 */
 
-// Object Literal Syntax
+/*Object Literal Syntax*/
 const circle = {
-    radius: 1,  // Key value pair
-    location: { // Object inside an object
+    radius: 1,  /*Key value pair*/
+    location: { /*Object inside an object*/
         x: 1,
         y: 1
     },
-    draw: function() {  // Method
+    draw: function() {  /*Method*/
         console.log('draw');
     }
 };
