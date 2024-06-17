@@ -7,9 +7,9 @@
  * - We can use factory functions to create objects with different methods
  */
 
-// Factory Function to create a circle object
+/*Factory Function to create a circle object*/
 function createCircle(radius) {
-    // Return an object with the given radius and a draw method
+    /*Return an object with the given radius and a draw method*/
     return {
         radius,
         draw: function() {
@@ -18,8 +18,8 @@ function createCircle(radius) {
     };
 }
 
-// Create a circle object using the factory function
+/*Create a circle object using the factory function*/
 const circle = createCircle(1);
 
-// Call the draw method on the circle object
-circle.draw(); // Output: draw
+/*Call the draw method on the circle object*/
+circle.draw(); /*Output: draw*/
