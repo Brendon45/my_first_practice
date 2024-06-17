@@ -18,7 +18,7 @@
 */
 
 
-// Let's introduce some complexity in this example. Abstraction will help us to reduce the complexity.
+/*Let's introduce some complexity in this example. Abstraction will help us to reduce the complexity*/
 function Circle(radius) {
     this.radius = radius;
 
@@ -30,12 +30,12 @@ function Circle(radius) {
 
 
     this.draw = function() {
-        this.computeOptimumLocation(0.1); // this method is not part of the interface
+        this.computeOptimumLocation(0.1); /*this method is not part of the interface*/
         console.log('draw');
     }
 }
 
-const circle0 = new Circle(10); // this object has too many details
+const circle0 = new Circle(10); /*this object has too many details*/
 
 
 // Private Properties and Methods. We can use closures to define private properties and methods. scope of the variables and functions defined inside the constructor function is limited to the constructor function.
@@ -52,7 +52,7 @@ function Circle(radius) {
     this.draw = function() {
         let x, y; // local variables
 
-        computeOptimumLocation(0.1); // this method is not part of the interface
+        computeOptimumLocation(0.1); /*this method is not part of the interface*/
         // defaultLocation
         // this.radius
 
@@ -66,7 +66,7 @@ circle1.defaultLocation; // undefined
 circle1.draw(); // draw
 
 
-// Getters and Setters
+/*Getters and Setters*/
 function Circle(radius) {
     this.radius = radius;
 
