@@ -17,15 +17,15 @@ function Circle(radius) {
 
 const circle = new Circle(10);
 
-// We can add properties to an object by simply setting a property on that object. We can use dot notation or bracket notation.
+/*We can add properties to an object by simply setting a property on that object. We can use dot notation or bracket notation.*/
 circle.location = { x: 1 }; // dot notation
 circle['location'] = { x: 1 }; // bracket notation
 
-// When you want to dynamically access a property, use bracket notation
+/*When you want to dynamically access a property, use bracket notation*/
 const propertyName = 'location';
 circle[propertyName] = { x: 1 };
 
-// Another use case for bracket notation is when the property name is not a valid identifier(such as a property name with a space)
+/*Another use case for bracket notation is when the property name is not a valid identifier(such as a property name with a space)*/
 const propertyName1 = 'center-location';
 circle['center-location'] = { x: 1 };
 
