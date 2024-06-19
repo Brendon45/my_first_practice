@@ -21,23 +21,15 @@ M	1000
 
 ## Table of Contents
 
-[Problem Statement](#problem-statement)
-[Solution](#solution)
-[Intuition](#intuition)
-[Approach](#approach)
-[Complexity](#complexity)
-- [Roman to Integer Conversion](#roman-to-integer-conversion)
-  - [Symbol	Value](#symbolvalue)
-  - [Table of Contents](#table-of-contents)
     - [Problem Statement](#problem-statement)
     - [Solution](#solution)
     - [Intuition](#intuition)
     - [Approach](#approach)
     - [Complexity](#complexity)
     - [Example Usage](#example-usage)
-    - [Example 1:](#example-1)
-    - [Example 2:](#example-2)
-    - [Example 3:](#example-3)
+        - [Example 1:](#example-1)
+        - [Example 2:](#example-2)
+        - [Example 3:](#example-3)
     - [Constraints](#constraints)
 
 ### Problem Statement
