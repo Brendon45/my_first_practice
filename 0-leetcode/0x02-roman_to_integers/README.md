@@ -21,16 +21,16 @@ M	1000
 
 ## Table of Contents
 
-    - [Problem Statement](#problem-statement)
-    - [Solution](#solution)
-    - [Intuition](#intuition)
-    - [Approach](#approach)
-    - [Complexity](#complexity)
-    - [Example Usage](#example-usage)
+- [Problem Statement](#problem-statement)
+- [Solution](#solution)
+- [Intuition](#intuition)
+- [Approach](#approach)
+- [Complexity](#complexity)
+- [Example Usage](#example-usage)
     - [Example 1:](#example-1)
     - [Example 2:](#example-2)
     - [Example 3:](#example-3)
-    - [Constraints](#constraints)
+- [Constraints](#constraints)
 
 ### Problem Statement
 
