@@ -20,4 +20,4 @@ int left_count(long number, int times)
 	}
 
 	return (count);
-}
+}clearerr
